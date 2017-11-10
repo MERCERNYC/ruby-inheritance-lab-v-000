@@ -4,10 +4,12 @@ def initialize(knowledge)
   @knowledge = []
 end
 
-def learn
+def learn (knowledge)
+  @knowledge << student_knowledge
 end
 
 def knowledge
+  @knowledge
 end
 
 end
