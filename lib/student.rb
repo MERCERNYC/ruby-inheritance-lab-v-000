@@ -4,13 +4,8 @@ class Student < User
     @knowledge = []
   end
 
-def learn (teach)
-  @knowledge << teach
-  student.learn = self
-end
-
-def knowledge
-  @knowledge
+def learn (knowledge)
+  @knowledge << knowledge
 end
 
 end
